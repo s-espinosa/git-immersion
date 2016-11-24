@@ -56,17 +56,30 @@
 	<li>Learn how to create a git repository from scratch.</li>
 </ul>
 <h2>Create a &#8220;Hello, World&#8221; program <em>01</em></h2>
-<p>Starting in your shell working directory, create an empty directory named &#8220;hello&#8221;, then create a file named <code>hello.rb</code> with the contents below.</p>
-<h4>Execute:</h4>
-<pre class="instructions">mkdir hello
-cd hello</pre>
+
+                         <p style="color:red;"><strong><span class="caps">NOTE</span>: In this step, instead of creating a new 'hello' directory, just locate the cloned repository directory and change dir to it (later in the tutorial every mention of the 'hello' directory is actually this working directory).</strong></p>
+
+<del><p>Starting in your shell working directory, create an empty directory named &#8220;hello&#8221;, then create a file named <code>hello.rb</code> with the contents below.</p>
+
+</del>
+                                                                         <h4>Execute:</h4>
+<pre class="instructions"><del>mkdir hello
+                         </del>
+cd git-tutorial</pre>
 <h4>File: <em>hello.rb</em></h4>  <p style="color:red;"><strong><span class="caps">NOTE</span>: you should create a new file with this name (e.g. by running: touch hello.rb) and add the following ruby code into it:.</strong></p>
 <pre class="file">puts "Hello, World"
 </pre>
+
+
 <h2>Create the Repository <em>02</em></h2>
+
+                                     <p style="color:red;"><strong><span class="caps">NOTE</span>: This step should be skipped, since we are already in a repository.</strong></p>
 <p>You now have a directory with a single file.  To create a git repository from that directory, run the git init command.</p>
+<del>
 <h4>Execute:</h4>
 <pre class="instructions">git init</pre>
+</del>
+
 <h4>Output:</h4>
 <pre class="sample">$ git init
 Initialized empty Git repository in /Users/jim/working/git/git_immersion/auto/hello/.git/
